@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sciwebpart-client-side-solution",
+    "id": "ad2966a7-3fdb-4319-8dfc-2e1855fe52b5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "sciwebpart description"
+      },
+      "longDescription": {
+        "default": "sciwebpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sciwebpart Feature",
+        "description": "The feature that activates elements of the sciwebpart solution.",
+        "id": "45bd1064-cd28-4b16-be75-ebd1412385b5",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sciwebpart.sppkg"
+  }
+}
